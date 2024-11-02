@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #f48024;
+    padding: 10px;
+}
+
+header input[type="text"] {
+    flex-grow: 1;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+header button {
+    background-color: #f48024;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+}
+
+.calendar {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.day {
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.day.selected {
+    border: 2px solid #000;
+}
+
+.status-panel {
+    display: flex;
+    flex-direction: column;
+}
+
+.status-button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.green {
+    background-color: #4caf50;
+    color: white;
+}
+
+.yellow {
+    background-color: #ffc107;
+    color: black;
+}
+
+.red {
+    background-color: #f44336;
+    color: white;
+}
