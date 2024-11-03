@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Colectivo Nuevo</title>
+    <link rel="stylesheet" href="registrocolectivos.css">
+</head>
+<body>
+    <div class="header-bar">
+        <input type="text" placeholder="Buscar vehículo por (Patente, Dueño o Modelo)">
+        <div class="profile-icon"></div>
+    </div>
+
+    <div class="form-container">
+        <div class="form-header">
+            <button class="back-button">&larr;</button>
+            <h2>Agregar Colectivo Nuevo</h2>
+        </div>
+        <form action="#" method="post">
+            <label for="dueno">Dueño:</label>
+            <input type="text" id="dueno" placeholder="Nombre" required>
+
+            <label for="patente">Patente:</label>
+            <input type="text" id="patente" placeholder="XX-XX-XX" required>
+
+            <form action="#" method="post">
+                <label for="dueno">Modelo:</label>
+                <input type="text" id="modelo" placeholder="Modelo" required>
+
+                <form action="#" method="post">
+                    <label for="dueno">Año:</label>
+                    <input type="int" id="anio" placeholder="Año" required>
+
+
+
+
+            <div class="button-container">
+                <button type="submit" class="btn-add">Agregar</button>
+                <button type="button" class="btn-cancel">Cancelar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
